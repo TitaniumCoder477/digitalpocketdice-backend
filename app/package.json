@@ -1,0 +1,31 @@
+{
+  "name": "digitalpocketdice",
+  "version": "0.0.1",
+  "description": "Dice application",
+  "author": "James Wilmoth <titaniumcoder477@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@okta/jwt-verifier": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TitaniumCoder477/digitalpocketdice-backend.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitaniumCoder477/digitalpocketdice-backend/issues"
+  },
+  "homepage": "https://github.com/TitaniumCoder477/digitalpocketdice-backend#readme"
+}
